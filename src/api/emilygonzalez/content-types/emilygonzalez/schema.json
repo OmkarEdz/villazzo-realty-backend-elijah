@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "emilygonzalezs",
+  "info": {
+    "singularName": "emilygonzalez",
+    "pluralName": "emilygonzalezs",
+    "displayName": "Emily Gonzalez",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "memberName": {
+      "type": "string"
+    },
+    "memberImageURL": {
+      "type": "string"
+    },
+    "memberType": {
+      "type": "string"
+    },
+    "contactNo": {
+      "type": "string"
+    },
+    "memberEmail": {
+      "type": "email"
+    },
+    "Content": {
+      "type": "text"
+    },
+    "Properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "featured-pop.featured-properties",
+      "max": 3
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_navs",
+  "info": {
+    "singularName": "header-nav",
+    "pluralName": "header-navs",
+    "displayName": "headerNav",
+    "description": "",
+    "repeatable": true
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Navigation": {
+      "type": "dynamiczone",
+      "repeatable": true,
+      "components": [
+        "shared.header-navigation",
+        "shared.sub-menu"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "reviewspages",
+  "info": {
+    "singularName": "reviewspage",
+    "pluralName": "reviewspages",
+    "displayName": "Reviews page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reviews.reviews",
+      "max": 8,
+      "min": 1
+    }
+  }
+}

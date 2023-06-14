@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sold_sold_properties",
+  "info": {
+    "displayName": "Sold Properties",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "propertyImageURL": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "richtext"
+    }
+  }
+}

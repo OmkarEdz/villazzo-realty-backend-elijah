@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_featured_pop_featured_properties",
+  "info": {
+    "displayName": "Featured Properties",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "propertyImageURL": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "richtext"
+    }
+  }
+}

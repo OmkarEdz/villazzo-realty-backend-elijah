@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "newdevelopmentpages",
+  "info": {
+    "singularName": "newdevelopmentpage",
+    "pluralName": "newdevelopmentpages",
+    "displayName": "New Development Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Proprties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "featured-pop.featured-properties"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "soldbypages",
+  "info": {
+    "singularName": "soldbypage",
+    "pluralName": "soldbypages",
+    "displayName": "Sold By Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "soldProperties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sold.sold-properties"
+    }
+  }
+}

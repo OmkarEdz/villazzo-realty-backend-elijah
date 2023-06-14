@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_home_page_links",
+  "info": {
+    "displayName": "homePageLinks"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_single_member_single_members",
+  "info": {
+    "displayName": "Single Member"
+  },
+  "options": {},
+  "attributes": {
+    "memberName": {
+      "type": "string"
+    },
+    "memberImageURL": {
+      "type": "string"
+    },
+    "memberType": {
+      "type": "string"
+    },
+    "contactNo": {
+      "type": "string"
+    },
+    "memberEmail": {
+      "type": "string"
+    }
+  }
+}

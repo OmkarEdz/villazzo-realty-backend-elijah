@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_our_sites_our_sites",
+  "info": {
+    "displayName": "Our Sites",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SiteLink": {
+      "type": "string"
+    },
+    "SiteImageURL1": {
+      "type": "string"
+    },
+    "SiteImageURL2": {
+      "type": "string"
+    }
+  }
+}

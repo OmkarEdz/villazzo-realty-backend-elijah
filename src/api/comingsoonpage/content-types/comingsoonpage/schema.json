@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "comingsoonpages",
+  "info": {
+    "singularName": "comingsoonpage",
+    "pluralName": "comingsoonpages",
+    "displayName": "Coming Soon Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "string"
+    }
+  }
+}
