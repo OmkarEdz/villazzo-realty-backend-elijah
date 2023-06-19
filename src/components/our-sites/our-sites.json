@@ -11,9 +11,6 @@
     },
     "SiteImageURL1": {
       "type": "string"
-    },
-    "SiteImageURL2": {
-      "type": "string"
     }
   }
 }
