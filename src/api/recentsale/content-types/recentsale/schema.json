@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "recentsales",
+  "info": {
+    "singularName": "recentsale",
+    "pluralName": "recentsales",
+    "displayName": "Recent Sales"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "recent-sales.recent-sales"
+    }
+  }
+}

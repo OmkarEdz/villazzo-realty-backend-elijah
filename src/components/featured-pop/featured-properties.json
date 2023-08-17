@@ -14,6 +14,12 @@
     },
     "subheading": {
       "type": "richtext"
+    },
+    "OnHoverContent": {
+      "type": "string"
+    },
+    "OnHoverDate": {
+      "type": "string"
     }
   }
 }
