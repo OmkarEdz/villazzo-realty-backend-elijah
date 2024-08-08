@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_footer_links_navigate_links_rights",
+  "info": {
+    "displayName": "navigateLinksRight"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

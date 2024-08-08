@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_property_imgs_property_imgs",
+  "info": {
+    "displayName": "PropertyImgs"
+  },
+  "options": {},
+  "attributes": {
+    "ImgUrl": {
+      "type": "string"
+    }
+  }
+}

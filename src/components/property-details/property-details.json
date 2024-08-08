@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_property_details_property_details",
+  "info": {
+    "displayName": "PropertyDetails"
+  },
+  "options": {},
+  "attributes": {
+    "PropertyLoc": {
+      "type": "string"
+    },
+    "Bedrooms": {
+      "type": "string"
+    },
+    "Bathrooms": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "MemberName": {
+      "type": "string"
+    },
+    "MemberImgUrl": {
+      "type": "string"
+    },
+    "MemberDes": {
+      "type": "string"
+    },
+    "MemberPhone": {
+      "type": "string"
+    },
+    "MemberEmail": {
+      "type": "string"
+    },
+    "MemberLink": {
+      "type": "string"
+    }
+  }
+}

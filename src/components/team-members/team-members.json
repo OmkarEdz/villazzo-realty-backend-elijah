@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_team_members_team_members",
+  "info": {
+    "displayName": "Member",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "memberName": {
+      "type": "string"
+    },
+    "memberType": {
+      "type": "string"
+    },
+    "contactNo": {
+      "type": "string"
+    },
+    "memberEmail": {
+      "type": "email"
+    },
+    "memberImageURL": {
+      "type": "string"
+    },
+    "pagelink": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_our_listing_our_listings",
+  "info": {
+    "displayName": "Our Listing"
+  },
+  "options": {},
+  "attributes": {
+    "PropertyName": {
+      "type": "string"
+    },
+    "PropertyImg": {
+      "type": "string"
+    },
+    "PropertyDesc": {
+      "type": "string"
+    }
+  }
+}

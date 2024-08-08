@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_top_deals_top_deals",
+  "info": {
+    "displayName": "TopDeals",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "PropertyName": {
+      "type": "string"
+    },
+    "MainPrice": {
+      "type": "string"
+    },
+    "DiscountedPrice": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    },
+    "PropertyImg": {
+      "type": "string"
+    }
+  }
+}

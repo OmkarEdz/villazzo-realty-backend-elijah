@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_recent_sales_recent_sales",
+  "info": {
+    "displayName": "Recent Sales",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "PropertyName": {
+      "type": "string"
+    },
+    "PropertyLocation": {
+      "type": "richtext"
+    },
+    "PropertyImg": {
+      "type": "string"
+    },
+    "OnHoverPrice": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_social_social_connects",
+  "info": {
+    "displayName": "socialConnect"
+  },
+  "options": {},
+  "attributes": {
+    "Account": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

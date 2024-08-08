@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "teamspages",
+  "info": {
+    "singularName": "teamspage",
+    "pluralName": "teamspages",
+    "displayName": "Teamspage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "moreVillaImageDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "moreVillaImageMob": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Member": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-members.team-members"
+    }
+  }
+}

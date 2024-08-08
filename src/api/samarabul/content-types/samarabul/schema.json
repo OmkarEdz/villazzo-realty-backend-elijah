@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "samarabuls",
+  "info": {
+    "singularName": "samarabul",
+    "pluralName": "samarabuls",
+    "displayName": "Samar Abul",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "text"
+    },
+    "Properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "featured-pop.featured-properties",
+      "max": 3
+    },
+    "memberName": {
+      "type": "string"
+    },
+    "memberImageURL": {
+      "type": "string"
+    },
+    "memberType": {
+      "type": "string"
+    },
+    "contactNo": {
+      "type": "string"
+    },
+    "memberEmail": {
+      "type": "email"
+    },
+    "pagelink": {
+      "type": "string"
+    }
+  }
+}

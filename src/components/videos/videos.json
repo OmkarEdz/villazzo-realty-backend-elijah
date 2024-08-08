@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_videos_videos",
+  "info": {
+    "displayName": "Videos",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "youtubeEmebedURL": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_listings",
+  "info": {
+    "singularName": "ourlistings",
+    "pluralName": "our-listings",
+    "displayName": "Our Listings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ourlisting": {
+      "type": "component",
+      "repeatable": true,
+      "component": "our-listing.our-listing",
+      "max": 9
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "videospages",
+  "info": {
+    "singularName": "videospage",
+    "pluralName": "videospages",
+    "displayName": "Videos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "video": {
+      "type": "component",
+      "repeatable": true,
+      "component": "videos.videos"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_copyright_links_copyright_links",
+  "info": {
+    "displayName": "copyrightLinks"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

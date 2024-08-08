@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "toptendeals",
+  "info": {
+    "singularName": "toptendeal",
+    "pluralName": "toptendeals",
+    "displayName": "TopTenDeals",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "top-deals.top-deals",
+      "max": 10
+    }
+  }
+}
