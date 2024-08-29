@@ -88,11 +88,13 @@ export interface OurListingOurListing extends Schema.Component {
   collectionName: 'components_our_listing_our_listings';
   info: {
     displayName: 'Our Listing';
+    description: '';
   };
   attributes: {
     PropertyName: Attribute.String;
     PropertyImg: Attribute.String;
     PropertyDesc: Attribute.String;
+    PropertyPageLink: Attribute.String;
   };
 }
 

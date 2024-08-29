@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ourlistings",
     "pluralName": "our-listings",
-    "displayName": "Our Listings"
+    "displayName": "Our Listings",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

@@ -1463,6 +1463,7 @@ export interface ApiOurlistingsOurlistings extends Schema.SingleType {
     singularName: 'ourlistings';
     pluralName: 'our-listings';
     displayName: 'Our Listings';
+    description: '';
   };
   options: {
     draftAndPublish: true;
