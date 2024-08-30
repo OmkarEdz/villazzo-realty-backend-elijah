@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "propertysevens",
+  "info": {
+    "singularName": "propertyseven",
+    "pluralName": "propertysevens",
+    "displayName": "Property Seven"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PropertyImgDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "property-details.property-details"
+    },
+    "PropertyImg": {
+      "type": "component",
+      "repeatable": true,
+      "component": "property-imgs.property-imgs"
+    },
+    "MapIframe": {
+      "type": "text"
+    }
+  }
+}

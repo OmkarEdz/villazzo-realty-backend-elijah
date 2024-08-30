@@ -1529,6 +1529,134 @@ export interface ApiPropertyProperty extends Schema.CollectionType {
   };
 }
 
+export interface ApiPropertyeightPropertyeight extends Schema.SingleType {
+  collectionName: 'propertyeights';
+  info: {
+    singularName: 'propertyeight';
+    pluralName: 'propertyeights';
+    displayName: 'Property Eight';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    PropertyImg: Attribute.Component<'property-imgs.property-imgs', true>;
+    PropertyImgDetails: Attribute.Component<'property-details.property-details'>;
+    MapIframe: Attribute.Text;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::propertyeight.propertyeight',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::propertyeight.propertyeight',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiPropertyfivePropertyfive extends Schema.SingleType {
+  collectionName: 'propertyfives';
+  info: {
+    singularName: 'propertyfive';
+    pluralName: 'propertyfives';
+    displayName: 'Property Five';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    PropertyImg: Attribute.Component<'property-imgs.property-imgs', true>;
+    PropertyImgDetails: Attribute.Component<'property-details.property-details'>;
+    MapIframe: Attribute.Text;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::propertyfive.propertyfive',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::propertyfive.propertyfive',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiPropertyfourPropertyfour extends Schema.SingleType {
+  collectionName: 'propertyfours';
+  info: {
+    singularName: 'propertyfour';
+    pluralName: 'propertyfours';
+    displayName: 'Property Four';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    PropertyImg: Attribute.Component<'property-imgs.property-imgs', true>;
+    PropertyImgDetails: Attribute.Component<'property-details.property-details'>;
+    MapIframe: Attribute.Text;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::propertyfour.propertyfour',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::propertyfour.propertyfour',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiPropertyninePropertynine extends Schema.SingleType {
+  collectionName: 'propertynines';
+  info: {
+    singularName: 'propertynine';
+    pluralName: 'propertynines';
+    displayName: 'Property Nine';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    PropertyImg: Attribute.Component<'property-imgs.property-imgs', true>;
+    PropertyImgDetails: Attribute.Component<'property-details.property-details'>;
+    MapIframe: Attribute.Text;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::propertynine.propertynine',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::propertynine.propertynine',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiPropertyonePropertyone extends Schema.SingleType {
   collectionName: 'propertyones';
   info: {
@@ -1555,6 +1683,135 @@ export interface ApiPropertyonePropertyone extends Schema.SingleType {
       Attribute.Private;
     updatedBy: Attribute.Relation<
       'api::propertyone.propertyone',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiPropertysevenPropertyseven extends Schema.SingleType {
+  collectionName: 'propertysevens';
+  info: {
+    singularName: 'propertyseven';
+    pluralName: 'propertysevens';
+    displayName: 'Property Seven';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    PropertyImgDetails: Attribute.Component<'property-details.property-details'>;
+    PropertyImg: Attribute.Component<'property-imgs.property-imgs', true>;
+    MapIframe: Attribute.Text;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::propertyseven.propertyseven',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::propertyseven.propertyseven',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiPropertysixPropertysix extends Schema.SingleType {
+  collectionName: 'propertysixes';
+  info: {
+    singularName: 'propertysix';
+    pluralName: 'propertysixes';
+    displayName: 'Property Six';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    PropertyImg: Attribute.Component<'property-imgs.property-imgs', true>;
+    PropertyImgDetails: Attribute.Component<'property-details.property-details'>;
+    MapIframe: Attribute.Text;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::propertysix.propertysix',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::propertysix.propertysix',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiPropertythreePropertythree extends Schema.SingleType {
+  collectionName: 'propertythrees';
+  info: {
+    singularName: 'propertythree';
+    pluralName: 'propertythrees';
+    displayName: 'Property Three';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    PropertyImgs: Attribute.Component<'property-imgs.property-imgs', true>;
+    PropertyImgDetails: Attribute.Component<'property-details.property-details'>;
+    MapIframe: Attribute.Text;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::propertythree.propertythree',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::propertythree.propertythree',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiPropertytwoPropertytwo extends Schema.SingleType {
+  collectionName: 'propertytwos';
+  info: {
+    singularName: 'propertytwo';
+    pluralName: 'propertytwos';
+    displayName: 'Property Two';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    PropertyImgs: Attribute.Component<'property-imgs.property-imgs', true>;
+    PropertyImgDetails: Attribute.Component<'property-details.property-details'>;
+    MapIframe: Attribute.Text;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::propertytwo.propertytwo',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::propertytwo.propertytwo',
       'oneToOne',
       'admin::user'
     > &
@@ -1920,7 +2177,15 @@ declare module '@strapi/types' {
       'api::newdevelopmentpage.newdevelopmentpage': ApiNewdevelopmentpageNewdevelopmentpage;
       'api::ourlistings.ourlistings': ApiOurlistingsOurlistings;
       'api::property.property': ApiPropertyProperty;
+      'api::propertyeight.propertyeight': ApiPropertyeightPropertyeight;
+      'api::propertyfive.propertyfive': ApiPropertyfivePropertyfive;
+      'api::propertyfour.propertyfour': ApiPropertyfourPropertyfour;
+      'api::propertynine.propertynine': ApiPropertyninePropertynine;
       'api::propertyone.propertyone': ApiPropertyonePropertyone;
+      'api::propertyseven.propertyseven': ApiPropertysevenPropertyseven;
+      'api::propertysix.propertysix': ApiPropertysixPropertysix;
+      'api::propertythree.propertythree': ApiPropertythreePropertythree;
+      'api::propertytwo.propertytwo': ApiPropertytwoPropertytwo;
       'api::recentsale.recentsale': ApiRecentsaleRecentsale;
       'api::reviewspage.reviewspage': ApiReviewspageReviewspage;
       'api::samarabul.samarabul': ApiSamarabulSamarabul;

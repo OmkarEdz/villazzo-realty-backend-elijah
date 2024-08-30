@@ -1,7 +1,8 @@
 {
   "collectionName": "components_property_imgs_property_imgs",
   "info": {
-    "displayName": "PropertyImgs"
+    "displayName": "PropertyImgs",
+    "description": ""
   },
   "options": {},
   "attributes": {

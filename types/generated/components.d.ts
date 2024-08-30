@@ -134,6 +134,7 @@ export interface PropertyImgsPropertyImgs extends Schema.Component {
   collectionName: 'components_property_imgs_property_imgs';
   info: {
     displayName: 'PropertyImgs';
+    description: '';
   };
   attributes: {
     ImgUrl: Attribute.String;

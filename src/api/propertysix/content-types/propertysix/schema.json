@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "propertysixes",
+  "info": {
+    "singularName": "propertysix",
+    "pluralName": "propertysixes",
+    "displayName": "Property Six"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PropertyImg": {
+      "type": "component",
+      "repeatable": true,
+      "component": "property-imgs.property-imgs"
+    },
+    "PropertyImgDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "property-details.property-details"
+    },
+    "MapIframe": {
+      "type": "text"
+    }
+  }
+}
