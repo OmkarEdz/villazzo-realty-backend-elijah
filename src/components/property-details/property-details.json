@@ -1,7 +1,8 @@
 {
   "collectionName": "components_property_details_property_details",
   "info": {
-    "displayName": "PropertyDetails"
+    "displayName": "PropertyDetails",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -36,6 +37,9 @@
       "type": "string"
     },
     "MemberLink": {
+      "type": "string"
+    },
+    "PropertyStatus": {
       "type": "string"
     }
   }

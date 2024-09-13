@@ -114,6 +114,7 @@ export interface PropertyDetailsPropertyDetails extends Schema.Component {
   collectionName: 'components_property_details_property_details';
   info: {
     displayName: 'PropertyDetails';
+    description: '';
   };
   attributes: {
     PropertyLoc: Attribute.String;
@@ -127,6 +128,7 @@ export interface PropertyDetailsPropertyDetails extends Schema.Component {
     MemberPhone: Attribute.String;
     MemberEmail: Attribute.String;
     MemberLink: Attribute.String;
+    PropertyStatus: Attribute.String;
   };
 }
 
